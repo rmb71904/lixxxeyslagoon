@@ -8,6 +8,12 @@
   color: blue;
   text-align: center;
   font-family: "Lucidia Console", monospace;
+  padding-top: 60px;
+}
+.mainHeader {
+  color: blue;
+  text-align: center;
+  font-family: "Lucidia Console", monospace;
 }
 .menu ul {
   display: flex;
@@ -27,6 +33,10 @@
   font-family: "Lucidia Console", monospace;
   text-decoration: none;
   text-align: center;
+}
+.centerytvid {
+  text-align: center;
+  padding-right: 5px;
 }
 
 a {
