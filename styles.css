@@ -1,16 +1,50 @@
-.paraText { text-align: center;
+.paraText {
+  text-align: center;
+  font-family: "Lucidia Console", monospace;
+  font-size: large;
+  color: blue;
 }
-.headerText { color: blue; text-align: center;
+.headerText {
+  color: blue;
+  text-align: center;
+  font-family: "Lucidia Console", monospace;
 }
 .menu ul {
   display: flex;
   margin: 100px;
-
+  text-decoration: none;
 }
 
 .menu ul li{
   list-style: none;
   margin: 0 20px;
   cursor: pointer;
+  font-family: "Lucidia Console", monospace;
+  text-decoration: none;
+}
 
+.back {
+  font-family: "Lucidia Console", monospace;
+  text-decoration: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link{
+  color:blue;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color:orange;
+}
+a:focus{
+  color:green;
+}
+a:active{
+  color:red;
 }
